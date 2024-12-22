@@ -1,0 +1,44 @@
+# Ignore Virtual Enviroment
+.venv/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Ignore build outputs
+dist/
+build/
+*.log
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore sensitive environment files
+.env
+.env.local
+
+# Ignore other application-specific files
+coverage/
+*.coverage
+*.testresult
